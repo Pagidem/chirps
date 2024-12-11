@@ -1,0 +1,1 @@
+https://bootcamp.laravel.com/inertia/creating-chirps
