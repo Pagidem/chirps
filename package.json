@@ -16,6 +16,11 @@
         "postcss": "^8.4.31",
         "tailwindcss": "^3.2.1",
         "vite": "^6.0",
-        "vue": "^3.4.0"
+        "vue": "^3.5.13"
+    },
+    "dependencies": {
+        "@vue/compiler-sfc": "^3.5.13",
+        "dayjs": "^1.11.13",
+        "vite-plugin-vue": "^0.0.1"
     }
 }

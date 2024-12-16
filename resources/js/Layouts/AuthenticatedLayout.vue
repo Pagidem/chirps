@@ -39,7 +39,15 @@ const showingNavigationDropdown = ref(false);
                                 >
                                     Dashboard
                                 </NavLink>
+                                <NavLink
+                                    :href="route('chirps.index')"
+                                    :active="route().current('chirps.index')"
+                                >
+                                    Chirps
+                                </NavLink>
                             </div>
+
+
                         </div>
 
                         <div class="hidden sm:ms-6 sm:flex sm:items-center">
@@ -145,6 +153,11 @@ const showingNavigationDropdown = ref(false);
                             :active="route().current('dashboard')"
                         >
                             Dashboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                        :href="route('chirps.index')"
+                        :active="route().current('chirps.index')">
+                            Chirps
                         </ResponsiveNavLink>
                     </div>
 
